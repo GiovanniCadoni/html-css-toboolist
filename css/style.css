@@ -1,5 +1,31 @@
+/*Impostiamo i vari parametri base di ogni file*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/*Andiamo a modificare il nostro body in modo che ci faccia da sfondo per la nostra pagina*/
+body{
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Iniziamo a dare le caratteristiche che vogliamo al nostro header*/
+header{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.nome-logo{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
 }
