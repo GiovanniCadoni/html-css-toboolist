@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <!--Inseriamo un link per darci modo di usare più tardi dei segni particolari-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -25,7 +27,7 @@
         <main>
 
             <!--Andiamo a creare un nostro div che ci faccia da contenitore per le due macro sezioni della nostra pagina-->
-            <div class="contenitore">
+            <div class="contenitore piccolo">
                 
                 <!--Barra per l'aggiunta delle task e delle sezioni-->
                 <section>
@@ -35,10 +37,94 @@
 
             </div>
 
-            <div class="contenitore">
-                <!--Corpo centrale con all'interno le task-->
-                <section>
+            <!--Corpo centrale con all'interno le varie task-->
+            <div class="contenitore grande">
 
+                <!--New Task-->
+                <section class="task">
+                    <div>
+                        <i style="font-size:24px" class="fa">&#xf0d7;</i> New Task
+                    </div>
+                    <ul>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Quarterly Newsletter
+                            <div class="sezione celeste">
+                                Editorial
+                            </div>
+                        </li>
+                        <br>
+                    </ul>
+                </section>
+
+                <!--Today-->
+                <section class="task">
+                    <div>
+                        <i style="font-size:24px" class="fa">&#xf0d7;</i> Today
+                    </div>
+                    <ul>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Recruiting blog post
+                            <div class="sezione celeste">
+                                Editorial
+                            </div>
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Mobile app launch
+                            <div class="sezione viola">
+                                Q1 Goals
+                            </div>
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="croce">&#x2717;</span> Interview John H.
+                            <div class="sezione verde">
+                                Recruiting
+                            </div>
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Summit update to mobile storefronts
+                            <div class="sezione arancione">
+                                Mobile
+                            </div>
+                        </li>
+                        <br>
+                    </ul>
+                </section>
+
+                <!--Upcoming-->
+                <section class="task">
+                    <div>
+                        <i style="font-size:24px" class="fa">&#xf0d7;</i> Upcoming
+                    </div>
+                    <ul>
+                        <li class="da-fare">
+                            <span class="croce">&#x2717;</span> Schedule meeting with Alex
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Homepage refresh
+                            <div class="sezione rosso">
+                                Website
+                            </div>
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Onboard new Sales team members 
+                            <div class="sezione verde-limone">
+                                Sales
+                            </div>
+                        </li>
+                        <br>
+                        <li class="da-fare">
+                            <span class="spunta">&#x2713;</span> Review editorial calendar
+                            <div class="sezione celeste">
+                                Editorial
+                            </div>
+                        </li>
+                        <br>
+                    </ul>
                 </section>
 
             </div>
@@ -46,4 +132,5 @@
         </main>
     
     </body>
+
 </html>
